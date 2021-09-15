@@ -26,7 +26,7 @@ int main(void) {
 
         printf("Anna luku: ");
         scanf("%d", &number);
-        int_to_bin(bits, number);
+        dec_to_bin(bits, number);
     }
     return 0;
 }
