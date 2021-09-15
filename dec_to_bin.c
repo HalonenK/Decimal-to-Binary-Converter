@@ -18,7 +18,7 @@ int main(void) {
 
     while (1) {
         printf("Bitteja (negatiivinen arvo sulkee ohjelman): ");
-        scanf("%d", &number);
+        scanf("%d", &bits);
 
         if (bits < 0) {
             break;
